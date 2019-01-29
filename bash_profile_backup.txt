@@ -78,7 +78,8 @@
     cur=`pwd`
     cd ~/code/dot-files/
     git add .
-    git commit -m "updated dotfiles"
+    git commit -m "updated dotfiles | `date`"
+    git push -u origin master
 
 
 
