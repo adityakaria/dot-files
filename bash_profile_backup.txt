@@ -77,9 +77,9 @@
     cat ~/.bash_profile > ~/code/dot-files/bash_profile_backup.txt
     cur=`pwd`
     cd ~/code/dot-files/
-    git add .
-    git commit -m "updated dotfiles | `date`"
-    git push -u origin master
+    git add . > /dev/null
+    git commit -m "updated dotfiles | `date`" > /dev/null
+    git push -u origin master > /dev/null
 
 
 
