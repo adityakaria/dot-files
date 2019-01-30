@@ -79,6 +79,7 @@
     cd ~/code/dot-files/
     git add . > /dev/null
     git commit --quiet -m "updated dotfiles | `date`" > /dev/null
+    cd $cur
 
 
 
