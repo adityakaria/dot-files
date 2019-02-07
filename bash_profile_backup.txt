@@ -23,7 +23,7 @@
 # For GCC compiler
     export CC=gcc
 # For Flutter
-    export PATH="$PATH:~flutter/bin"
+    export PATH="$PATH:~/flutter/bin"
 
 # for powerline
     export PATH=$PATH:$HOME/Library/Python/2.7/bin
