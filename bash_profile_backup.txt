@@ -22,6 +22,8 @@
     export LANG=en_US.UTF-8
 # For GCC compiler
     export CC=gcc
+# For Flutter
+    export PATH="$PATH:~flutter/bin"
 
 # for powerline
     export PATH=$PATH:$HOME/Library/Python/2.7/bin
