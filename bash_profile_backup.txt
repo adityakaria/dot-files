@@ -56,6 +56,8 @@
     alias gits='git status'
     alias gpo='git push origin'
     alias gcom='git commit -m'
+    alias push='git push'
+    alias pull='git pull'
 
     alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
     alias reload="source ~/.bash_profile"
