@@ -55,6 +55,7 @@
     alias pyt='python3'
     alias gits='git status'
     alias gpo='git push origin'
+    alias gcom='git commit -m'
 
     alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
     alias reload="source ~/.bash_profile"
