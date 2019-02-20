@@ -182,11 +182,11 @@
     }
 
 # Generates a tree view from the current directory
-    function tree(){
-        pwd
-        ls -R | grep ":$" |   \
-        sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
-    }
+    # function tree(){
+    #     pwd
+    #     ls -R | grep ":$" |   \
+    #     sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+    # }
 
 # cd into the last focused finder window
     function cdfinder(){
