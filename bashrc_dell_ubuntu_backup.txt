@@ -161,3 +161,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
     git add . > /dev/null
     git commit --quiet -m "updated dotfiles | `date`" > /dev/null
     cd $cur
+export PATH=~/.composer/vendor/bin:/home/aditya/.rvm/gems/ruby-2.6.1/bin:/home/aditya/.rvm/gems/ruby-2.6.1@global/bin:/home/aditya/.rvm/rubies/ruby-2.6.1/bin:/home/aditya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/aditya/.rvm/bin:/home/aditya/.rvm/bin:/home/aditya/.rvm/bin:/home/aditya/.rvm/bin
