@@ -92,3 +92,5 @@ alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+export PATH="/usr/local/opt/php@7.2/bin:$PATH"
+export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
