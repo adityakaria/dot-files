@@ -1,13 +1,34 @@
+# ----------------------------------
+#            PATH CHANGES
+# ----------------------------------
+
+# To make brew packages available before inbuilt
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+# To make the terminal coloured
 export CLICOLOR=1
 
-# Adding mysql to path
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+# Add PHP 7.2 to path (before inbuilt 7.1)
+export PATH="/usr/local/opt/php@7.2/bin:$PATH"
+export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
+
+# Add Composer to path
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # ----------------------------------
-#            MY ALIASES
+#            ALIASES
 # ----------------------------------
+
+# System Aliases
+    # Adding mysql to path
+    alias mysql=/usr/local/mysql/bin/mysql
+    alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+
+# My Aliases
 # Don't McFukin touch!
 
     alias cppcompile='c++ -std=c++11 -stdlib=libc++'
@@ -89,9 +110,4 @@ alias mysqladmin=/usr/local/mysql/bin/mysqladmin
     spotlight () { mdfind "kMDItemDisplayName == '$@'wc"; }
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-export PATH="/usr/local/opt/php@7.2/bin:$PATH"
-export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
-export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-export PATH="/usr/local/sbin:$PATH"
