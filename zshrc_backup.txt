@@ -132,7 +132,7 @@ source $ZSH/oh-my-zsh.sh
     alias pull='git pull'
     # --------------------------------
     alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
-    alias reload="source ~/.bash_profile"
+    alias reload="source ~/.zshrc"
     alias iossimulator="(cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/ && open -a iPhone\ Simulator.app)"
     alias ~="cd ~/"
     alias home="cd ~/"
