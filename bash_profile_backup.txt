@@ -115,4 +115,6 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 # ----------------------------------------------------
 export IRBRC_SQL_IRIS_USERNAME="root"
 export IRBRC_SQL_IRIS_PASSWORD="123456"
+export IRBRC_SQL_IRIS_DBNAME="iris_dev"
+export IRBRC_SQL_SOCK_PATH="/tmp/mysql.sock"
 
