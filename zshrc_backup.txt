@@ -178,3 +178,10 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+
+# Adding my username and password for MYSQL (for IRIS)
+# ----------------------------------------------------
+export IRBRC_SQL_IRIS_USERNAME="root"
+export IRBRC_SQL_IRIS_PASSWORD="123456"
+
