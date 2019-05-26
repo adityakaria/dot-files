@@ -184,4 +184,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # ----------------------------------------------------
 export IRBRC_SQL_IRIS_USERNAME="root"
 export IRBRC_SQL_IRIS_PASSWORD="123456"
+export IRBRC_SQL_IRIS_DBNAME="iris_dev"
 
