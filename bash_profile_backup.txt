@@ -111,3 +111,8 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 
+# Adding my username and password for MYSQL (for IRIS)
+# ----------------------------------------------------
+export IRBRC_SQL_IRIS_USERNAME="root"
+export IRBRC_SQL_IRIS_PASSWORD="123456"
+
