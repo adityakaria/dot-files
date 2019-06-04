@@ -164,7 +164,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 # To make the terminal coloured
-export CLICOLOR=1
+# export CLICOLOR=1
 
 # Add PHP 7.2 to path (before inbuilt 7.1)
 export PATH="/usr/local/opt/php@7.2/bin:$PATH"
