@@ -114,7 +114,7 @@ source $ZSH/oh-my-zsh.sh
     # --------------------------
     alias cppcompile='c++ -std=c++11 -stdlib=libc++'
     alias apps='cd ~/Applications'
-    # alias l='ls -GFh'
+    alias l='ls -GFh'
     alias la='ls -a -GFh'
     alias ll='ls -l -GFh'
     alias ls='ls -GFh'
