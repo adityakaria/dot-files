@@ -153,6 +153,13 @@ export PATH="$PATH:$HOME/.rvm/bin"
     alias ......="cd ../../../../../"
 
 
+# For IRIS SQL variables setup:
+	export IRBRC_SQL_IRIS_DBNAME=iris_dev
+	export IRBRC_SQL_IRIS_USERNAME=root
+	export IRBRC_SQL_IRIS_PASSWORD=123456
+
+
+
 # To make a continuous backup of the .bash_profile file (I learnt from my mistakes)
 # ----------------------------------------------------------
     cat ~/.bashrc > ~/code/dot-files/bashrc_dell_ubuntu_backup.txt
