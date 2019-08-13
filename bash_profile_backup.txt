@@ -10,11 +10,11 @@ export PATH="/usr/local/sbin:$PATH"
 export CLICOLOR=1
 
 # Add PHP 7.2 to path (before inbuilt 7.1)
-export PATH="/usr/local/opt/php@7.2/bin:$PATH"
-export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
+# export PATH="/usr/local/opt/php@7.2/bin:$PATH"
+# export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
 
 # Add Composer to path
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+# export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
@@ -63,6 +63,10 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
     alias ......="cd ../../../../../"
     # alias python="python3"
     alias nbrew="HOMEBREW_NO_AUTO_UPDATE=1 brew"
+
+    # For gatekeeper operations
+    alias enable_gate="sudo spctl --master-enable"
+    alias disable_gate="sudo spctl --master-disable"
 
 # To make a continuous backup of the .bash_profile file (I learnt from my mistakes)
 # ----------------------------------------------------------
