@@ -68,6 +68,9 @@ export CLICOLOR=1
     alias enable_gate="sudo spctl --master-enable"
     alias disable_gate="sudo spctl --master-disable"
 
+    # For opening bash_profile quickly
+    alias bashp="~/.bash_profile"
+
 # To make a continuous backup of the .bash_profile file (I learnt from my mistakes)
 # ----------------------------------------------------------
     cat ~/.bash_profile > ~/code/dot-files/bash_profile_backup.txt
