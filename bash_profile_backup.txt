@@ -122,3 +122,5 @@ export IRBRC_SQL_IRIS_PASSWORD="123456"
 export IRBRC_SQL_IRIS_DBNAME="iris_dev"
 export IRBRC_SQL_SOCK_PATH="/tmp/mysql.sock"
 
+export PKG_CONFIG_PATH="/opt/local/lib/pkgconfig:/usr/local/Cellar/imagemagick@6/6.9.10-58/lib/pkgconfig/MagickCore.pc/:$PKG_CONFIG_PATH"
+
