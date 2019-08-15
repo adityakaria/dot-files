@@ -202,4 +202,5 @@ export IRBRC_SQL_SOCK_PATH="/tmp/mysql.sock"
 
 export PKG_CONFIG_PATH="/opt/local/lib/pkgconfig:/usr/local/Cellar/imagemagick@6/6.9.10-58/lib/pkgconfig/:$PKG_CONFIG_PATH"
 
-export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"source /Users/adityakaria/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/adityakaria/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
