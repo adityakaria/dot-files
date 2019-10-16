@@ -77,6 +77,11 @@ export CLICOLOR=1
     alias cbp="code ~/.bash_profile"
     alias szsh="subl ~/.zshrc"
     alias czsh="code ~/.zshrc"
+    alias cdot="code ~/.zshrc ~/.bash_profile"
+    alias sdot="subl ~/.zshrc ~/.bash_profile"
+
+    # Opening the current folder in Finder (Mac Exclusive)
+    alias here="open -a Finder ."
 
 # To make a continuous backup of the .bash_profile file (I learnt from my mistakes)
 # ----------------------------------------------------------
@@ -135,3 +140,4 @@ export IRBRC_SQL_SOCK_PATH="/tmp/mysql.sock"
 export PKG_CONFIG_PATH="/opt/local/lib/pkgconfig:/usr/local/Cellar/imagemagick@6/6.9.10-58/lib/pkgconfig/:$PKG_CONFIG_PATH"
 
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
