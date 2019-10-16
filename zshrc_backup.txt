@@ -159,6 +159,11 @@ source $ZSH/oh-my-zsh.sh
     alias cbp="code ~/.bash_profile"
     alias szsh="subl ~/.zshrc"
     alias czsh="code ~/.zshrc"
+    alias cdot="code ~/.zshrc ~/.bash_profile"
+    alias sdot="subl ~/.zshrc ~/.bash_profile"
+
+    # Opening the current folder in Finder (Mac Exclusive)
+    alias here="open -a Finder ."
 
 
 # -----------------------------------------------------------------------------
