@@ -220,4 +220,4 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source <(kubectl completion bash)
+# source <(kubectl completion bash)
