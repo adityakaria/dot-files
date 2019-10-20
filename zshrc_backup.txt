@@ -71,7 +71,7 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git colored-man colorize pip python brew osx zsh-syntax-highlighting)
-plugins=(git git-flow git-extras github bundler colored-man-pages colorize pip python brew osx rvm npm sublime vscode sudo supervisor web-search zsh-autosuggestions command-not-found battery_pct_prompt zsh-syntax-highlighting fzf bgnotify)
+plugins=(git git-flow git-extras github bundler colored-man-pages colorize pip python brew osx rvm npm sublime vscode sudo supervisor web-search zsh-autosuggestions command-not-found fzf bgnotify)
 
 source $ZSH/oh-my-zsh.sh
 
