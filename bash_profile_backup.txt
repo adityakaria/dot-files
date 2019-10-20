@@ -145,6 +145,3 @@ export PKG_CONFIG_PATH="/opt/local/lib/pkgconfig:/usr/local/Cellar/imagemagick@6
 
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
-# source <(kubectl completion bash)
-
-# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
