@@ -218,3 +218,4 @@ export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 source /Users/adityakaria/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export PATH="/usr/local/opt/sphinx-doc/bin:$PATH"
