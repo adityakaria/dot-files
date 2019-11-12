@@ -168,6 +168,8 @@ source $ZSH/oh-my-zsh.sh
     # MySQL Login
     alias sqlr="mysql -u root -p"
     alias sqla="mysql -u adityakaria -p"
+    alias mysqlstart='sudo /usr/local/mysql/support-files/mysql.server start'
+	alias mysqlstop='sudo /usr/local/mysql/support-files/mysql.server stop'
 
 
 # -----------------------------------------------------------------------------
