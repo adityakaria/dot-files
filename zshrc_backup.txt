@@ -171,6 +171,16 @@ source $ZSH/oh-my-zsh.sh
     alias mysqlstart='sudo /usr/local/mysql/support-files/mysql.server start'
 	alias mysqlstop='sudo /usr/local/mysql/support-files/mysql.server stop'
 
+    # To commit and push remaining changes from the dot-files folder
+    dotpush() {
+        cur=`pwd`
+        cd ~/code/dot-files/
+        git commit --quiet -m "updated dotfiles | `date`" > /dev/null
+        git push origin master
+        cd $cur
+        echo "Uploaded all changes"
+    }
+
 
 # -----------------------------------------------------------------------------
 # To make a continuous backup of the .zshrc file (I learnt from my mistakes)
