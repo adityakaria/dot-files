@@ -97,7 +97,7 @@ export CLICOLOR=1
         echo "Committing all pending files..."
         git commit --quiet -m "updated dotfiles | `date`" > /dev/null
         echo "Pushing changes..."
-        git push origin master > dev/null
+        git push origin master > /dev/null
         echo "reverting to ${cur} ..."
         cd $cur
         echo "Uploaded all changes"
