@@ -96,7 +96,7 @@ export CLICOLOR=1
         git commit --quiet -m "updated dotfiles | `date`" > /dev/null
         git push origin master
         cd $cur
-        echo "Pushed all changes to git."
+        echo "Uploaded all changes"
     }
 
 # To make a continuous backup of the .bash_profile file (I learnt from my mistakes)
