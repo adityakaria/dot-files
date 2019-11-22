@@ -178,7 +178,7 @@ source $ZSH/oh-my-zsh.sh
     cat ~/.zshrc > ~/code/dot-files/zshrc_backup.txt
     cur=`pwd`
     cd ~/code/dot-files/
-    git add . > /dev/null
+    git add zshrc_backup.txt > /dev/null
     git commit --quiet -m "updated dotfiles | `date`" > /dev/null
     cd $cur
 
