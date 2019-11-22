@@ -177,6 +177,7 @@ source $ZSH/oh-my-zsh.sh
         echo "Switching to ~/code/dot-files folder..."
         cd ~/code/dot-files/
         echo "Committing all pending files..."
+        git add --all
         git commit --quiet -m "updated dotfiles | `date`" > /dev/null
         echo "Pushing changes..."
         git push origin master > /dev/null
