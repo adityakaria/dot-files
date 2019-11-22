@@ -89,12 +89,22 @@ export CLICOLOR=1
     alias mysqlstart='sudo /usr/local/mysql/support-files/mysql.server start'
 	alias mysqlstop='sudo /usr/local/mysql/support-files/mysql.server stop'
 
+    # To commit and push remaining changes from the dot-files folder
+    dotpush() {
+        cur=`pwd`
+        cd ~/code/dot-files/
+        git commit --quiet -m "updated dotfiles | `date`" > /dev/null
+        git push origin master
+        cd $cur
+        echo "Push complete"
+    }
+
 # To make a continuous backup of the .bash_profile file (I learnt from my mistakes)
 # ----------------------------------------------------------
     cat ~/.bash_profile > ~/code/dot-files/bash_profile_backup.txt
     cur=`pwd`
     cd ~/code/dot-files/
-    git add . > /dev/null
+    git add bash_profile_backup.txt > /dev/null
     git commit --quiet -m "updated dotfiles | `date`" > /dev/null
     cd $cur
 
