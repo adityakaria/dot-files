@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 7,
+      "subtext" : {
+        "size" : 13,
+        "colorSelected" : "#FFFFFFCB",
+        "font" : "Avenir",
+        "color" : "#FFFFFF7F"
+      },
+      "shortcut" : {
+        "size" : 23,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Avenir",
+        "color" : "#FFFFFF59"
+      },
+      "backgroundSelected" : "#1B6388FF",
+      "text" : {
+        "size" : 19,
+        "colorSelected" : "#FFFFFFE8",
+        "font" : "Avenir",
+        "color" : "#FFFFFFDB"
+      },
+      "iconPaddingHorizontal" : 10,
+      "paddingVertical" : 7,
+      "iconSize" : 36
+    },
+    "search" : {
+      "paddingVertical" : 0,
+      "background" : "#00000007",
+      "spacing" : 0,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Avenir",
+        "color" : "#FFFFFFFF"
+      },
+      "backgroundSelected" : "#144863FF"
+    },
+    "window" : {
+      "color" : "#272727F1",
+      "paddingHorizontal" : 0,
+      "width" : 683,
+      "borderPadding" : 0,
+      "borderColor" : "#0000003F",
+      "blur" : 10,
+      "roundness" : 0,
+      "paddingVertical" : 0
+    },
+    "credit" : "AJK",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#1D6488FF",
+      "thickness" : 5
+    },
+    "name" : "Batman"
+  }
+}
