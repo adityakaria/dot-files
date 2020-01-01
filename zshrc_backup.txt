@@ -72,7 +72,7 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git colored-man colorize pip python brew osx zsh-syntax-highlighting)
 plugins=(git git-flow git-extras github bundler colored-man-pages colorize pip python brew osx rvm npm sublime vscode sudo supervisor web-search zsh-autosuggestions command-not-found fzf bgnotify virtualenv)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time virtualenv)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator history virtualenv)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
