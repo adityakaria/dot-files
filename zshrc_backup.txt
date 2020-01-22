@@ -198,9 +198,11 @@ source $ZSH/oh-my-zsh.sh
 # To make a continuous backup of the .zshrc file (I learnt from my mistakes)
 # -----------------------------------------------------------------------------
     cat ~/.zshrc > ~/code/dot-files/zshrc_backup.txt
+    cat ~/.p10k.zsh > ~/code/dot-files/p10k.zsh.txt
     cur=`pwd`
     cd ~/code/dot-files/
     git add zshrc_backup.txt > /dev/null
+    git add p10k.zsh.txt > /dev/null
     git commit --quiet -m "updated dotfiles | `date`" > /dev/null
     cd $cur
 
