@@ -17,7 +17,6 @@ export CLICOLOR=1
 # export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # ----------------------------------
 #            ALIASES
@@ -150,7 +149,6 @@ export CLICOLOR=1
     spotlight () { mdfind "kMDItemDisplayName == '$@'wc"; }
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-
 # Adding my username and password for MYSQL (for IRIS)
 # ----------------------------------------------------
 export IRBRC_SQL_IRIS_USERNAME="root"
@@ -164,3 +162,5 @@ export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 export PATH="/usr/local/opt/sphinx-doc/bin:$PATH"
 export PATH="/usr/local/mysql/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
