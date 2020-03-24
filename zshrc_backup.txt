@@ -249,3 +249,4 @@ export PATH="/usr/local/opt/sphinx-doc/bin:$PATH"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH=/Users/adityakaria/.rvm/gems/ruby-2.6.1/bin:/Users/adityakaria/.rvm/gems/ruby-2.6.1@global/bin:/Users/adityakaria/.rvm/rubies/ruby-2.6.1/bin:/usr/local/opt/sphinx-doc/bin:/usr/local/opt/libxml2/bin:/usr/local/sbin:/usr/local/opt/imagemagick@6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/adityakaria/.fzf/bin:/Users/adityakaria/.rvm/bin:/Users/adityakaria/.rvm/bin:/Users/adityakaria/Desktop/music_method_channel_example/Downloads/flutter/bin:/Users/adityakaria/Downloads/flutter/bin:/Users/adityakaria/Downloads/flutter/bin
