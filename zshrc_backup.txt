@@ -193,10 +193,20 @@ source $ZSH/oh-my-zsh.sh
         echo "Uploaded all changes"
     }
 
-    # TO KILL All server processes at a particular port (IRIS)
+    # To KILL all server processes at a particular port (IRIS: 3000)
     kiris() {
-        echo #{"$1"};
+        echo "Killing all IRIS server processes...";
+        echo "Processes Found:\n`lsof -i tcp:3000 -t`"
+        kill -9 $(lsof -i tcp:3000 -t)
+        echo "Done"
+    }
+
+    # To KILL all server processes at a particular port
+    kport() {
+        echo "Killing all at port $1...";
+        echo "Processes Found:\n`lsof -i tcp:"$1" -t`"
         kill -9 $(lsof -i tcp:"$1" -t)
+        echo "Done"
     }
 
 # -----------------------------------------------------------------------------
