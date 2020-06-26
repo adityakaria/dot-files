@@ -196,7 +196,7 @@ source $ZSH/oh-my-zsh.sh
     # TO KILL All server processes at a particular port (IRIS)
     kiris() {
         echo #{"$1"};
-        kill -9 $(lsof -i tcp:$1 -t)
+        kill -9 $(lsof -i tcp:"$1" -t)
     }
 
 # -----------------------------------------------------------------------------
