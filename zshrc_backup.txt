@@ -194,7 +194,7 @@ source $ZSH/oh-my-zsh.sh
     }
 
     # TO KILL All server processes at a particular port (IRIS)
-    alias kiris=`kill -9 $(lsof -i tcp:#{$1} -t)`
+    alias kiris=`function _blah(){ kill -9 $(lsof -i tcp:#{$1} -t) };`
 
 # -----------------------------------------------------------------------------
 # To make a continuous backup of the .zshrc file (I learnt from my mistakes)
