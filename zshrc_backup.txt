@@ -209,8 +209,8 @@ source $ZSH/oh-my-zsh.sh
             echo "Killing all at port $1...";
             echo "Processes Found:\n`lsof -i tcp:"$1" -t`"
             kill -9 $(lsof -i tcp:"$1" -t)
+            echo "Done"
         fi
-        echo "Done"
     }
 
 # -----------------------------------------------------------------------------
