@@ -203,7 +203,7 @@ source $ZSH/oh-my-zsh.sh
 
     # To KILL all server processes at a particular port
     kport() {
-        if [[ "" !=  "$1" ]]; then
+        if [[ -z $1 ]]; then
             echo "Killing all at port $1...";
             echo "Processes Found:\n`lsof -i tcp:"$1" -t`"
             kill -9 $(lsof -i tcp:"$1" -t)
