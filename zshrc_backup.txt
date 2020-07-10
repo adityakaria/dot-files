@@ -225,8 +225,8 @@ source $ZSH/oh-my-zsh.sh
                     ((counter++));
                 fi;
             done < "$1";
-            ffmpeg -f concat -safe 0 -i ./files.txt -codec copy output.mkv;
-            xargs -a files_list.txt -d'\n' rm
+            ffmpeg -f concat -safe 0 -i ./files.txt -codec copy $2.mkv;
+            # xrm $(<files_list.txt)
             # rm files.txt
             # rm files_list.txt
         else
