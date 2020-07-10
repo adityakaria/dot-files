@@ -218,7 +218,8 @@ source $ZSH/oh-my-zsh.sh
             counter=1;
             while read line; do
                 if [[ "$line" == "http"* ]]; then
-                    curl --silent -o ${counter}.mkv "$line";
+                    echo "$line"
+                    curl -o ${counter}.mkv "$line";
                     echo "file ${counter}.mkv" >> ./files.txt;
                     ((counter++));
                 fi;
