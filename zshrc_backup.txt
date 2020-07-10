@@ -226,9 +226,9 @@ source $ZSH/oh-my-zsh.sh
                 fi;
             done < "$1";
             ffmpeg -f concat -safe 0 -i ./files.txt -codec copy $2.mkv;
-            # xrm $(<files_list.txt)
-            # rm files.txt
-            # rm files_list.txt
+            rm $(<files_list.txt)
+            rm files.txt
+            rm files_list.txt
         else
             echo 'Usage: download-playlist <file.m3u8>';
         fi
