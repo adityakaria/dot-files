@@ -221,10 +221,14 @@ source $ZSH/oh-my-zsh.sh
                     echo "$line"
                     curl -o ${counter}.mkv "$line";
                     echo "file ${counter}.mkv" >> ./files.txt;
+                    echo "${counter}.mkv" >> ./files_list.txt;
                     ((counter++));
                 fi;
             done < "$1";
             ffmpeg -f concat -safe 0 -i ./files.txt -codec copy output.mkv;
+            xargs -a files_list.txt -d'\n' rm
+            # rm files.txt
+            # rm files_list.txt
         else
             echo 'Usage: download-playlist <file.m3u8>';
         fi
