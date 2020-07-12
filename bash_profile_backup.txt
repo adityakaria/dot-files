@@ -37,24 +37,27 @@ export CLICOLOR=1
     alias ll='ls -l -GFh'
     alias ls='ls -GFh'
     alias lsa='ls -al -GFh'
+    alias o=open
     alias oc='cd ~/code/c'
     alias ocode='cd ~/code'
     alias ojava='cd ~/code/java'
     alias opy='cd ~/code/py'
     alias oshell='cd ~/code/shell'
-    alias pyt='python3'
     alias gits='git status'
     alias gpo='git push origin'
     alias gcom='git commit -m'
     alias push='git push'
     alias pull='git pull'
-
+    alias pyt='python3'
+    alias pip='pip3'
+    alias tar='gtar'
+    alias sl='ls'
+# --------------------------------
     alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
-    alias reload="source ~/.bash_profile"
+    alias reload="source ~/.zshrc"
     alias zreload="source ~/.zshrc"
     alias breload="source ~/.bash_profile"
     alias reload_dot="source ~/.bash_profile; source ~/.zshrc;"
-
     alias iossimulator="(cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/ && open -a iPhone\ Simulator.app)"
     alias ~="cd ~/"
     alias home="cd ~/"
@@ -101,6 +104,26 @@ export CLICOLOR=1
         echo "reverting to ${cur} ..."
         cd $cur
         echo "Uploaded all changes"
+    }
+
+    # To KILL all server processes at a particular port (IRIS: 3000)
+    kiris() {
+        echo "Killing all IRIS server processes...";
+        echo "Processes Found:\n`lsof -i tcp:3000 -t`"
+        kill -9 $(lsof -i tcp:3000 -t)
+        echo "Done"
+    }
+
+    # To KILL all server processes at a particular port
+    kport() {
+        if [[ -z $1 ]]; then
+            echo "Enter Port number and try again"
+        else
+            echo "Killing all at port $1...";
+            echo "Processes Found:\n`lsof -i tcp:"$1" -t`"
+            kill -9 $(lsof -i tcp:"$1" -t)
+            echo "Done"
+        fi
     }
 
 # To make a continuous backup of the .bash_profile file (I learnt from my mistakes)
