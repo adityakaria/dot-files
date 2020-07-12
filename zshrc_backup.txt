@@ -297,3 +297,4 @@ export PATH="/usr/local/opt/sphinx-doc/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="$PATH:$HOME/Downloads/flutter/bin"
+export PATH="$PATH"
