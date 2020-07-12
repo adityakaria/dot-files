@@ -128,6 +128,7 @@ source $ZSH/oh-my-zsh.sh
     alias ll='ls -l -GFh'
     alias ls='ls -GFh'
     alias lsa='ls -al -GFh'
+    alias o=open
     alias oc='cd ~/code/c'
     alias ocode='cd ~/code'
     alias ojava='cd ~/code/java'
@@ -232,6 +233,7 @@ source $ZSH/oh-my-zsh.sh
         else
             echo 'Usage: download-playlist <file.m3u8>';
         fi
+        # ffmpeg -ss 00:37:04 -i test.mkv -c:v copy -c:a copy -t 01:14:04 output.mkv
     }
 
 
