@@ -134,12 +134,15 @@ source $ZSH/oh-my-zsh.sh
     alias ojava='cd ~/code/java'
     alias opy='cd ~/code/py'
     alias oshell='cd ~/code/shell'
-    alias pyt='python3'
     alias gits='git status'
     alias gpo='git push origin'
     alias gcom='git commit -m'
     alias push='git push'
     alias pull='git pull'
+    alias pyt='python3'
+    alias pip='pip3'
+    alias tar='gtar'
+    alias sl='ls'
     # --------------------------------
     alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
     alias reload="source ~/.zshrc"
